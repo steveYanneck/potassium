@@ -1,0 +1,4 @@
+{
+    "token": "",
+    "postgresUrl": "postgres://user:password@localhost:5432/database"
+}
