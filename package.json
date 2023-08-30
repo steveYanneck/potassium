@@ -4,7 +4,8 @@
   "description": "",
   "main": "./dis/index.js",
   "scripts": {
-    "test": "echo \"starting\"; cd typescript; tsc; cd ..; node ."
+    "test": "echo \"starting\"; cd typescript; tsc; cd ..; node .",
+    "generateKey": "cd typescript; tsc; cd ..; cd dis; cd modules; cd data; node generatekeys.js"
   },
   "author": "Yanneck Braspenninckx (steveYanneck)",
   "license": "ISC",

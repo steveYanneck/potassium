@@ -1,16 +1,12 @@
 const config = require("./../../../config/botconfig.json")
 const {encrypt, decrypt} = require("./encryption.js")
-import { GuildMember, User } from "discord.js"
+import { GuildMember } from "discord.js"
 import postgres from "postgres"
 //@ts-ignore
 import * as pg from "pg"
 
 const pgClient = new pg.Client({
-    user: "", // postgres credentials
-    password: "",
-    port: 5432,
-    host: "",
-    database: ""
+    connectionString: config.postgresUrl
 })
 
 pgClient.connect()
