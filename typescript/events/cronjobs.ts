@@ -25,7 +25,7 @@ module.exports = {
                             
                             const embed = new EmbedBuilder()
                             .setTitle("REGULAR MEMBER")
-                            .setDescription(`Hello ${member.user.tag},\n\nIt looks like you have been a member in PAW Patrol Fanatics for a week now. For that we have given you the regular member role. With this role you can now add attachments to your messages and the automod will be less strict now.\n\nRegards\nFanatics Staff Team`)
+                            .setDescription(`Hello ${member.user.tag},\n\nIt looks like you have been a member in {SERVER} for a week now. For that we have given you the regular member role. With this role you can now add attachments to your messages and the automod will be less strict now.\n\nRegards\The Staff Team`)
                             .setColor("#42f551")
                             
                             try {
